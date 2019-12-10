@@ -77,7 +77,6 @@ nav a {
 }
 
 #main-content{
-    width: 85%;
     margin-left: 20%;
     margin-right: 0;
     display: flex;
@@ -104,7 +103,7 @@ nav a {
     margin-left: 5%;
     margin-right: 5%;
     font-family: courier;
-    font-size: 1.5vw;
+    font-size: 1.4vw;
 }
 
 #welcome a{
@@ -153,12 +152,15 @@ nav a {
     padding: 3%;
     margin-left: 20%;
     margin-right: 20%;
-    text-align: center;
+}
+
+#about-div h1{
+    font-size: 3vw;
 }
 
 #about-div p{
     font-family: courier;
-    font-size: 1.1em;
+    font-size: 1.4vw;
 }
 
 
@@ -217,7 +219,7 @@ nav a {
 #labels{
     font-family: courier;
     text-align: left;
-    width: 10vw;
+    width: 14vw;
 }
 
 #labels label{
@@ -313,6 +315,325 @@ footer iframe{
 	list-style-type : none;
 }
 
+@media only screen and (max-width: 900px) {
+    header {
+        background-color: #dbfff4;
+        width: 98vw;
+        height: 30vh;
+    }
+    
+    #pookie {
+        width: 18vw;
+        height: 30vh;
+        margin-top: 5%;
+        margin-left: 41vw;
+    }
+    
+    #logobox {
+        display: flex;
+        flex-wrap: wrap;
+        width: 15vw;
+    }
+    
+    #logobox a{
+        margin-top: 1vh;
+        width: 4vw;
+        margin-left: 1vw;
+    }
+    
+    #logobox a img{
+        width: 100%;
+    
+    }
+    
+    .logo {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    nav {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    nav a {
+        font-size: 2.5vw;
+        margin-top: 14vh;
+        padding: 1.5%;
+        width: 12%;
+        height: 5%;
+        text-decoration: none;
+        color: #000000;
+    }
+    
+    .clickable:hover {
+        color: #ffc1a4;
+    }
+    
+    #current-nav{
+        color: #98e6ce;
+        text-shadow: 1px 1px 3px black;
+    }
+    
+    #map{
+        width: 46%;
+        height: 50vh;
+        border: 3px solid black;
+        text-align:center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #location{
+        margin-bottom: 0;
+    }
+    #map iframe{
+        display: flex;
+        width: 100%;
+        height: 100%;
+    }
+    
+    #main-content{
+        margin-left: 12%;
+        margin-right: 0;
+        display: flex;
+    }
+    
+    #welcome {
+        text-align: center;
+        background-color: #dbfff4;
+        width: 58%;
+        max-height: 70vh;
+    }
+    
+    #welcome h1{
+        font-size: 3vw;
+    }
+    
+    #welcome-1{
+        margin-left: 5vw;
+    }
+    
+    #welcome p{
+        color: #270d02;
+        margin-left: 5%;
+        margin-right: 5%;
+        font-family: courier;
+        font-size: 2vw;
+    }
+    
+    #welcome a{
+        margin-left: 20vw;
+    }
+    
+    #room1 {
+        width: 25%;
+        height: 25%;
+        border: #8ffddc;
+        border-style: ridge;
+        float: left;
+        margin-right: 2%;
+    }
+    
+    #room2 {
+        width: 25%;
+        height: 25%;
+        border: #8ffddc;
+        border-style: ridge;
+        float: right;
+        margin-left: 2%;
+    }
+    
+    #menu{
+        margin-top: 5vh;
+        width: 80vw;
+        margin-left: auto;
+        margin-right:auto;
+        text-align: center;
+    }
+    
+    #menu img{
+        display: none;
+    }
+    
+    #menu-text{
+        background-color: #dbfff4;
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    
+    #about-div{
+        background-color: #dbfff4;
+        padding: 3%;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    #about-div h1{
+        font-size: 3.5vw;
+    }
+    
+    #about-div p{
+        font-family: courier;
+        font-size: 2vw;
+    }
+    
+    
+    #contact-content{
+        background-color: #dbfff4;
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    #contact-div{
+        width: 100%;
+        margin-top: 2vh;
+        text-align: center;
+    }
+    
+    #contact-div p{
+        font-family: courier;
+    }
+    
+    #form-div{
+        margin-top: 5vh;
+        width: 80%;
+        border-bottom: 3px solid black;
+        padding-bottom : 6vh;
+    }
+    
+    #form-header{
+        padding-top: 3vh;
+        text-align: center;
+        border-top: 3px solid black;
+        font-family: courier;
+        display: block;
+        margin-top: 1vh;
+        width: 80%;
+    }
+    
+    #form-div form{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    #submit{
+        margin-top: 2vh;
+        width: 24vw;
+        height: 7vh;
+        padding: 0;
+    }
+    
+    #labels{
+        font-family: courier;
+        text-align: left;
+        width: 21vw;
+    }
+    
+    #labels label{
+        display: block;
+        margin-bottom: 3.5vh;
+    }
+    
+    #inputs{
+        width: 24vw;
+    }
+    
+    #inputs input{
+        margin-bottom: 2vh;
+        height: 3vh;
+        width: 24vw;
+    }
+    
+    #inputs textarea{
+        width: 23.9vw;
+        resize: none;
+    }
+    
+    #contact-div-1{
+        margin-top: 2vh;
+        width: 70%;
+        text-align: center;
+        font-family: courier;
+    }
+    
+    .contact-media{
+        text-decoration: none;
+        color: black;
+        font-size: 1em;
+    }
+    
+    .contact-media img{
+        height: auto;
+        width: 5%;
+    }
+    
+    #contact-div-2{
+        font-family: courier;
+        text-align: center;
+    }
+    
+    h1 {
+        text-align: center;
+        font-size: 3em;
+    }
+    
+    #cat {
+        position: fixed;
+        bottom: 50vh;
+        width: 10%;
+        height: 20%;
+    }
+    
+    footer {
+        margin-top: 3vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 98vw;
+        text-align: center;
+        background-color: #dbfff4;
+    }
+    
+    #footer-div-1, #footer-div-2, #footer-div-3{
+        font-family: courier;
+        width: 30%;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    
+    .footer-header{
+        font-weight: bold;
+        margin-bottom: 0;
+    }
+    
+    .footer-content{
+        margin-top: 0;
+    }
+    
+    footer iframe{
+        width: 97vw;
+    }
+    
+    
+    #footer-list{
+        text-align: left;
+        font-size: 1em;
+        list-style: inside;
+        list-style-type : none;
+    }
+}
+
 @media only screen and (max-width: 600px) {
     
     header {
@@ -325,8 +646,8 @@ footer iframe{
     
     #pookie {
         width: 18vw;
-        height: 24vh;
-        margin-top: -2%;
+        height: 22vh;
+        margin-top: 0%;
         margin-left: 38vw;
         text-align: center;
     }
@@ -483,7 +804,6 @@ footer iframe{
         padding: 3%;
         margin-left: 20%;
         margin-right: 20%;
-        text-align: center;
     }
 
     #about-div p{
@@ -492,7 +812,7 @@ footer iframe{
     }
 
     #about-div h1{
-        font-size: 4vw;
+        font-size: 5vw;
     }
 
 
